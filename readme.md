@@ -23,6 +23,16 @@ using following commands:
 
 3. set project to use Cloudinary and PostgreSQL
 4. Deploy empty project to Heroku. 
-- Crate procfile and add folliwing web: gunicorn hoori.wsgi (hoori is name of folder for startproject)
+- Create procfile and add folliwing web: gunicorn hoori.wsgi (hoori is name of folder for startproject)
+
+
+**SETUP DATABASE MODEL**
+
+1. models.py
+- add imports
+- Use our database scheme
+- enter the items into models.py
+- makemigrations then migrate 
+2. 
 
 
