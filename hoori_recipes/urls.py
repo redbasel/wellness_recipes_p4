@@ -6,4 +6,3 @@ urlpatterns = [
     path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
 ]
 
-
