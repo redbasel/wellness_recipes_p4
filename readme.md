@@ -1,5 +1,8 @@
 This project is named "Hoori" which refers to the japanese god Hoori who was the god of grain and rice. The reason for this is that the site will collect recipes and to give give a helping hand in the style direction of the user interface, that will aim to be sleek and minimalistic. 
 
+add progrsm to rquirements after install
+pip3 freeze --local > requirements.txt
+
 **TO DO**
 
 **Django Project**
@@ -33,7 +36,8 @@ using following commands:
 - Use our database scheme
 - enter the items into models.py
 - makemigrations then migrate 
-2. 
+- python3 manage.py makemigrations
+2. Run migrations each time we wish make changes that efffect databases such as changes in settings and models.py
 
 **SETUP RECIPES(POSTS)**
 - summernote
