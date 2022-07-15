@@ -37,3 +37,14 @@ using following commands:
 
 **SETUP RECIPES(POSTS)**
 - summernote
+- added autoamtic slugs
+- added possiblity to comment
+- added filters for admin
+- 
+
+**new view**
+1. create the view code
+2. create a template to render view
+3. connect URLS in urls.py
+
+
