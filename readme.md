@@ -35,4 +35,5 @@ using following commands:
 - makemigrations then migrate 
 2. 
 
-
+**SETUP RECIPES(POSTS)**
+- summernote
