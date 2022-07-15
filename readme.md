@@ -52,3 +52,7 @@ using following commands:
 3. connect URLS in urls.py
 
 
+**Crispy Forms**
+1. install crispy forms
+2. 
+
