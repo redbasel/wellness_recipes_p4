@@ -1,5 +1,10 @@
+#Trial date time and slugify
+import datetime
 from django.db import models
 from django.contrib.auth.models import User
+#trial 
+from django.utils.text import slugify
+from django.urls import reverse
 from cloudinary.models import CloudinaryField
 
 STATUS = ((0, "Draft"), (1, "Published"))
@@ -14,8 +19,13 @@ class Post(models.Model):
     featured_image = CloudinaryField('image', default='placeholder')
     excerpt = models.TextField(blank=True)
     created_on = models.DateTimeField(auto_now_add=True)
-    status = models.IntegerField(choices=STATUS, default=0)
+    status = models.IntegerField(choices=STATUS, default=1)
     likes = models.ManyToManyField(User, related_name='recipe_likes', blank=True)
+
+ # trial post creation redirect, post_detail refers to post_detail.html. we use slug instead of pk because slug is already defined and will crash with slug oterwise.    
+    def get_absolute_url(self):
+        return reverse('post_detail', kwargs={'slug': self.slug})
+
 
     class Meta:
         ordering = ['created_on']
@@ -25,6 +35,18 @@ class Post(models.Model):
 
     def number_of_likes(self):
         return self.likes.count()
+
+
+#Trial save post when made by user
+
+    def save(self, *args, **kwargs):
+        now = datetime.datetime.now()
+        d_truncated_date = datetime.date(now.year, now.month, now.day)
+        d_truncated_time = datetime.time(now.hour, now.minute, now.second)
+        self.slug = slugify(
+            f'{self.author}-{self.title}-{d_truncated_date}-{d_truncated_time}'
+            )
+        super(Post, self).save(*args, **kwargs)
 
 class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name="comments")
