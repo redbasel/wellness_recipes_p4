@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 # Trial: import Createview
-from django.views.generic import CreateView, UpdateView
+from django.views.generic import CreateView, UpdateView, DeleteView
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
@@ -88,7 +88,7 @@ class PostCreateView(CreateView):
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
-        
+#Trial update view        
 class PostUpdateView(UpdateView):
     model = Post
     fields = ['title', 'content']
@@ -97,3 +97,15 @@ class PostUpdateView(UpdateView):
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+#Trial delete view
+class PostDeleteView(DeleteView):
+    model = Post
+    template_name = 'post_delete_confirm.html'
+    success_url = '/'
+
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
+
+    
