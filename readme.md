@@ -1,7 +1,25 @@
+**hoori.**
+
+
 This project is named "Hoori" which refers to the japanese god Hoori who was the god of grain and rice. The reason for this is that the site will collect recipes and to give give a helping hand in the style direction of the user interface, that will aim to be sleek and minimalistic. 
 
 add progrsm to rquirements after install
 pip3 freeze --local > requirements.txt
+
+**Logotype**
+The logo is based on the "Helvetia" font in bold, all lowercaps letters with a dot in the end in an attempt to keep the logo sleek and easy. 
+
+**Design**
+**Theme**
+White background with black lettering to achieve a minimalistic look and have high contrast in order for the page to have good useability. 
+
+**Header**
+The header will be white and black and will be a key point for the user in their navigation and interaction with the site as the header will  be dynamic in regards to the status of the visitor (logged in or not). When the user is logged in they should be presented with the option to sign out and view their own recipes. 
+
+**body**
+The body will handle the displa for the recipes. 
+**footer** 
+Social links as well as copyright information. 
 
 **TO DO**
 
