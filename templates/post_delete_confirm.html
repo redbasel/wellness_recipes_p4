@@ -7,7 +7,7 @@
 
 {% block content %}
 
-{% if user.is_authenticated %}
+{% if user.is_authenticated and post.author == user %}
 
 <div class="container">
     <div class="row">
@@ -26,15 +26,20 @@
                 {{ form.as_p }}
 
                 <button class="btn btn-outline-danger" type="submit">{% trans "Delete Post" %} &raquo;</button>
-                <a class="btn btn-outline-secondary" href="{% url 'post_detail' object.id"> Cancel</a>
+                <a class="btn btn-outline-secondary" href="{% url 'post_detail' post.slug %}"> Cancel</a>
             </form>
         </div>
     </div>
 </div>
 
+{% elif user.is_authenticated %}
+
+    {% include "post_error.html" %}
+
 {% else %}
 
 <h3>{% trans "Please log in" %}</h3>
+
 
 {% endif %}
 {% endblock %}
