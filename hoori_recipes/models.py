@@ -25,6 +25,8 @@ class Post(models.Model):
     instructions = models.TextField(blank=True)
     ingredients = models.TextField(blank=True)
     cooking_time = models.IntegerField(null=True)
+    #Image url trial
+    #featured_image_url = models.URLField(blank=True)
 
 
  # trial post creation redirect, post_detail refers to post_detail.html. we use slug instead of pk because slug is already defined and will crash with slug oterwise.    

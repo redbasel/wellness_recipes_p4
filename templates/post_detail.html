@@ -31,7 +31,20 @@
                 <!-- Use the | safe filter inside the template tags -->
                 <!--Probably here that i will add the recipe specific content-->
                 <p class="card-text ">
+                    <h3>Description</h3>
                     {{ post.content | safe }}
+                </p>
+                <p class="card-text ">
+                    <h3>Instructions</h3>
+                    {{ post.instructions | safe }}
+                </p>
+                <p class="card-text ">
+                    <h3>Ingredients</h3>
+                    {{ post.ingredients | safe }}
+                </p>
+                <p class="card-text ">
+                    <h3>Cooking time</h3>
+                    {{ post.cooking_time | safe }}
                 </p>
                 <div class="row">
 
