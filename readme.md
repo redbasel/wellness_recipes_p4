@@ -55,6 +55,7 @@ using following commands:
 - enter the items into models.py
 - makemigrations then migrate 
 - python3 manage.py makemigrations
+- python3 manage.py migrate
 2. Run migrations each time we wish make changes that efffect databases such as changes in settings and models.py
 
 **SETUP RECIPES(POSTS)**

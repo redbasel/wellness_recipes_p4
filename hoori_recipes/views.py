@@ -82,7 +82,7 @@ class PostLike(View):
 
 class PostCreateView(CreateView):
     model = Post
-    fields = ['title', 'content']
+    fields = ['title', 'content', 'ingredients', 'instructions', 'cooking_time' ]
     template_name = 'post_form.html'
     
     def form_valid(self, form):
