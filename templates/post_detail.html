@@ -56,12 +56,12 @@
                                 {% if liked %}
 
                                 <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like">
-                                    <i class="fas fa-heart"></i></button>
+                                    <i class="fa-solid fa-wheat-awn"></i></button>
 
 
                                 {% else %}
-                                <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i
-                                    class="far fa-heart"></i></button>
+                                <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-unliked"><i
+                                    class="fa-solid fa-wheat-awn"></i></button>
 
 
                                 {% endif %} 
@@ -69,7 +69,7 @@
                             </form>
                             {% else %}
 
-                            <span class="text-secondary"><i class="far fa-heart"></i></span>
+                            <span class="text-secondary"><i class="fa-solid fa-wheat-awn"></i></span>
                             {% endif %}
                             <span class="text-secondary"> {{ post.numer_of_likes }}</span>
                         </strong>

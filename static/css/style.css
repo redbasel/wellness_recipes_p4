@@ -149,6 +149,12 @@ body {
     background: transparent;
 }
 
+.btn-unliked {
+    color: #6C757D;
+    border: none;
+    background: transparent;
+}
+
 .btn-like:hover,
 .btn-like:active {
     color: #E84610;
