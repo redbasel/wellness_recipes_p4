@@ -12,6 +12,14 @@ class PostList(generic.ListView):
     template_name = "index.html"
     paginate_by = 6
 
+class UserPostList(generic.ListView):
+
+    def get(self, request):
+        model = Post
+        queryset = Post.objects.filter(author=request.user).order_by("-created_on")
+        paginate_by = 6
+        return render(request, 'my_recipes.html')
+
 class PostDetail(View):
 
     def get(self, request, slug, *args, **kwargs):
@@ -91,7 +99,7 @@ class PostCreateView(CreateView):
 #Trial update view        
 class PostUpdateView(UpdateView):
     model = Post
-    fields = ['title', 'content', 'ingredients', 'instructions', 'cooking_time']
+    fields = ['title', 'content', 'ingredients', 'instructions', 'cooking_time', 'featured_image' ]
     template_name = 'post_update.html'
     
     def form_valid(self, form):

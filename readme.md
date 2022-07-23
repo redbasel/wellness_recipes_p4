@@ -7,11 +7,11 @@ add progrsm to rquirements after install
 pip3 freeze --local > requirements.txt
 
 **Logotype**
-The logo is based on the "Helvetia" font in bold, all lowercaps letters with a dot in the end in an attempt to keep the logo sleek and easy. 
+The logo is based on the "Helvetica" font in bold, all lowercaps letters with a dot in the end in an attempt to keep the logo sleek and easy. 
 
 **Design**
 **Theme**
-White background with black lettering to achieve a minimalistic look and have high contrast in order for the page to have good useability. 
+White background with black lettering to achieve a minimalistic look and have high contrast in order for the page to have good useability. Will use th e color crimson red which is the red color on japans flag. Its a distinc red that will give the website a splash of color. 
 
 **Header**
 The header will be white and black and will be a key point for the user in their navigation and interaction with the site as the header will  be dynamic in regards to the status of the visitor (logged in or not). When the user is logged in they should be presented with the option to sign out and view their own recipes. 
@@ -21,6 +21,8 @@ The body will handle the displa for the recipes.
 **footer** 
 Social links as well as copyright information. 
 
+**icons**
+ICons used will relate to "hoori" thus we will use icons depicting grains, rice, cooking and utensils.
 **TO DO**
 
 **Django Project**

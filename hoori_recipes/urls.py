@@ -1,10 +1,12 @@
 from . import views
 from django.urls import path
 # Trial importing new view
-from .views import PostCreateView, PostUpdateView, PostDeleteView
+from .views import PostCreateView, PostUpdateView, PostDeleteView, UserPostList
 
 urlpatterns = [
     path('', views.PostList.as_view(), name='home'),
+    #trial userrecipes
+    path('myrecipes/', views.UserPostList.as_view(), name='user_recipes'),
     #Trial postCreate
     path('post/new/', views.PostCreateView.as_view(), name='post_create'),
     #path('/post/new/', PostCreateView.as_view(), name='post_create'),

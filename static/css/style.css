@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
 body {
     background-color: #F9FAFC;
 }
 
 .brand {
-    font-family: Lato, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #4A4A4F;
+    color: #000000;
 }
 
 .red-o {
@@ -17,6 +20,9 @@ body {
     font-weight: 300;
 }
 
+.black-bg {
+    background-color: #000000;
+}
 .light-bg {
     background-color: #fff;
 }
@@ -43,13 +49,14 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #000000;
 }
 
 .author {
+    font-family:'IBM Plex Mono', sans-serif;
     color: white;
     margin: 4px;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .masthead {
