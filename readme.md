@@ -11,7 +11,7 @@ The logo is based on the "Helvetica" font in bold, all lowercaps letters with a 
 
 **Design**
 **Theme**
-White background with black lettering to achieve a minimalistic look and have high contrast in order for the page to have good useability. Will use th e color crimson red which is the red color on japans flag. Its a distinc red that will give the website a splash of color. 
+White background with black lettering to achieve a minimalistic look and have high contrast in order for the page to have good useability. Will use th e color crimson red which is the red color on japans flag. Its a distinc red that will give the website a splash of color. Also, gold will be used as a nod to grain since hoori is the god of grain and rice. 
 
 **Header**
 The header will be white and black and will be a key point for the user in their navigation and interaction with the site as the header will  be dynamic in regards to the status of the visitor (logged in or not). When the user is logged in they should be presented with the option to sign out and view their own recipes. 

@@ -40,6 +40,14 @@ body {
     background-color: transparent;
 }
 
+.card-title {
+    font-family: Helvetica, sans-serif;
+}
+
+.card-text {
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
 .image-container {
     position: relative;
 }
