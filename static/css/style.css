@@ -42,6 +42,7 @@ body {
 
 .card-title {
     font-family: Helvetica, sans-serif;
+    font-weight: 550;
 }
 
 .card-text {
@@ -118,7 +119,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #e0c56e;
 }
 
 .post-title {

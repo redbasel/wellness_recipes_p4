@@ -55,9 +55,9 @@
                 </ul>
                 <span class="navbar-text text-muted">
                     {% if user.is_authenticated %}
-                    <p>Username</p>
+                    <p>User: {{ user.username }} </p>
                     {% else %} 
-                    <p>Please log in</p>
+                    <p><a class="nav-link" href="{% url 'account_login' %}">User: Visitor</a></p>
                     {% endif %}
                 </span>
             </div>
