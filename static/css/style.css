@@ -100,7 +100,17 @@ body {
     transform: skew(15deg);
     z-index: 100;
 }
+.nav-item {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: lowercase;
+}
 
+.navbar-text {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: lowercase;
+}
 .post-link {
     text-decoration: none;
     color: #445261;
@@ -144,7 +154,7 @@ body {
 }
 
 .btn-like {
-    color: #E84610;
+    color: #d4af37;
     border: none;
     background: transparent;
 }
@@ -155,9 +165,16 @@ body {
     background: transparent;
 }
 
+.btn-unliked:hover,
+.btn-unliked:active {
+    color: #d4af37;
+    background: transparent;
+    border: none;
+}
+
 .btn-like:hover,
 .btn-like:active {
-    color: #E84610;
+    color: #6C757D;
     background: transparent;
     border: none;
 }
