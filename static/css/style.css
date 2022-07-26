@@ -133,14 +133,14 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #e0c56e;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #e0c56e;
 }
 
 .link {
@@ -178,4 +178,10 @@ body {
     color: #6C757D;
     background: transparent;
     border: none;
+}
+
+/* button danger styling */
+
+.btn-danger {
+    background-color: BC002D;
 }
