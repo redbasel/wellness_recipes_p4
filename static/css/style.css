@@ -185,3 +185,13 @@ body {
 .btn-danger {
     background-color: #BC002D;
 }
+
+.btn-danger:hover {
+    background-color: #fff;
+    color: #BC002D;
+}
+
+
+.btn-secondary {
+    background-color: #000000;
+}
