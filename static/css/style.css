@@ -201,7 +201,7 @@ body {
 /* hero image */
 
 .hero {
-    min-height: 50vh;
+    min-height: 70vh;
     background: #000 url("https://res.cloudinary.com/hoori/image/upload/v1658905943/Asano_Takeji-No_Series-The_Harvest_Time-00034543-070423-F12_vwkuom.jpg") center center no-repeat;
     background-size: cover;
     position: relative;
