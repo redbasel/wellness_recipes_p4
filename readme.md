@@ -77,3 +77,7 @@ using following commands:
 1. install crispy forms
 2. 
 
+resources
+
+https://bootsnipp.com/snippets/eNxGv
+
