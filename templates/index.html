@@ -2,23 +2,35 @@
 
 {% block content %}
 <!-- Hero image -->
-<div class="hero"> 
-    <div class="container">     
-      <div class="hero-content"> 
-        <div class="row"> 
-          <div class="col-md-12"> 
-            <h1>Bootstrap Hero Image</h1> 
-          </div>  
-          <div class="col-md-6"> 
-            <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
-          </div>  
-          <div class="col-md-6"> 
-            <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
-          </div>
-        </div> 
-      </div>
-    </div> 
-  </div>
+<div class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h1 class="text-center brand">hoori.</h1>
+                        <h2 class="display-6 text-light">Find detailed recipes with macros</h2>
+                        <hr>
+                        {% if user.is_authenticated %}
+                        <p class="lead text-light"> Welcome back {{ user | title }}</p>
+                        <form action="{% url 'home' %}" method="get">
+                            <button class="btn btn-dark">View Recipes</button>
+                        </form>
+                        {% else %}
+                        <p class="lead text-light">Sign in please</p>
+                        <form action="{% url 'account_signup' %}" method="get">
+                            <button class="btn btn-dark">Sign
+                                up!</button>
+                        </form>
+                        <p class="text-muted"><small> small text.</small></p>
+                        {% endif %}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
         <!-- Blog Entries Column, change placeholder image -->
         <div class="col-12 mt-3 left">

@@ -1,21 +1,71 @@
+<div class="row">
+    <div class="col-12">
+        <div class="text-center">
+            <h1 class="text-center logo-hero">Eat Me!</h1>
+            <h2 class="display-6 text-light">A place to create and share your most loved recipes.</h2>
+            <hr>
+            {% if user.is_authenticated %}
+            <p class="lead text-light"> Welcome back {{ user | title }}</p>
+            <form action="{% url 'recipes' %}" method="get">
+                <button class="btn btn-dark">View Recipes</button>
+            </form>
+            {% else %}
+            <p class="lead text-light">Sign up today to start sharing your creations with the world!</p>
+            <form action="{% url 'account_signup' %}" method="get">
+                <button class="btn btn-dark">Sign
+                    up!</button>
+            </form>
+            <p class="text-muted"><small>By signing up you agree to our terms and service.</small></p>
+            {% endif %}
+        </div>
+    </div>
+    old
+
+    <div class="hero"> 
+        <div class="container">     
+          <div class="hero-content"> 
+            <div class="row"> 
+              <div class="col-md-12"> 
+                <h1>Bootstrap Hero Image</h1> 
+              </div>  
+              <div class="col-md-6"> 
+                <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
+              </div>  
+              <div class="col-md-6"> 
+                <p>Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image Bootstrap Hero Image</p> 
+              </div>
+            </div> 
+          </div>
+        </div> 
+      </div>
 
 
-<div class="container bg-overlay">
-	<div class="row text-center">
-		<h1>This is a beautiful background image<br> with a transparent overlay.</h1>
-        <h4>You can just use the "<strong>.bg-overlay</strong>" class on any container/element,<br>
-        and specify the image you want to use and its height.</h4>
-        <br><br>
-        <button type="button" class="btn btn-primary btn-lg">Get Started</button>
-	</div>
-</div>
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h1 class="text-center brand">hoori.</h1>
+                            <h2 class="display-6 text-light">Find detailed recipes with macros</h2>
+                            <hr>
+                            {% if user.is_authenticated %}
+                            <p class="lead text-light"> Welcome back {{ user | title }}</p>
+                            <form action="{% url 'home' %}" method="get">
+                                <button class="btn btn-dark">View Recipes</button>
+                            </form>
+                            {% else %}
+                            <p class="lead text-light">Sign in please</p>
+                            <form action="{% url 'account_signup' %}" method="get">
+                                <button class="btn btn-dark">Sign
+                                    up!</button>
+                            </form>
+                            <p class="text-muted"><small> small text.</small></p>
+                            {% endif %}
+                        </div>
 
-<br><br>
-
-<div class="container bg-no-overlay">
-    <div class="row text-center">
-		<h1>This is a background image<br> with NO overlay.</h1>
-        <br><br>
-        <button type="button" class="btn btn-primary btn-lg">Get Started</button>
-	</div>
-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
