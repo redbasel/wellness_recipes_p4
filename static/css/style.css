@@ -203,7 +203,7 @@ body {
 .hero {
     min-height: 50vh;
     background: #000 url("https://res.cloudinary.com/hoori/image/upload/v1658905894/Hikohohodemi_otokowa_tjfon6.png") center center no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
   }
   .hero:before {
