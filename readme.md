@@ -17,6 +17,13 @@
     9. [Icons](#Icons) 
 
 5. [Issues](#Issues)
+6. [Testing](#Testing)
+    1. [Validators](#Validators)
+    2. [User Stories](#User-story-testing)
+    3. [Feature Testing](#Feature-tests)
+    4. [Bugs](#Bugs)
+
+
 
 
 
@@ -62,4 +69,36 @@ Upgraded FontAwesome to the latest version 6.1.1 from 5.14 in order to be able t
 
 https://github.com/redbasel/wellness_recipes_p4/issues?q=is%3Aissue+is%3Aopen+label%3Aissue
 
-## 
+## Testing
+
+Below is a summary of the tesing done.
+    1. [Validators](#Validators)
+    2. [User Stories](#User-story-testing)
+    3. [Feature Testing](#Feature-tests)
+    4. [Bugs](#Bugs)
+
+### Validators
+
+html - w3c
+css - jigsaw
+javascript - jshint
+python - PEP8
+lighthouse maybe
+
+
+
+### User story testing
+
+Write my user stories and how they are adresssed
+
+
+
+### Feature tests
+
+Check that all buttons and links works and act as intended to. 
+
+### Bugs
+
+
+
+

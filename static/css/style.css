@@ -3,13 +3,13 @@
 
 
 html {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
 
 body {
     background-color: #F9FAFC;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .brand {
