@@ -7,35 +7,26 @@
         <div class="hero-content">
             <div class="row">
                 <div class="col-md-12">
-                    
+                    <div class="text-center">
+                        <h1 class="text-center brand">hoori.</h1>
+                        <h2 class="diplay-6 text-light">Find detailed recipes with macros</h2>
+                        <hr>
+                        {% if user.is_authenticated %}
+                        <p class="lead text-light"> Welcome, {{ user | title }}!</p>
+                        <form action="{% url 'home' %}" method="get">
+                            <button class="btn btn-signup">View Recipes</button>
+                        </form>
+                        {% else %}
+                        <p class="lead text-light">Sign in please</p>
+                        <form action="{% url 'account_signup' %}" method="get">
+                            <button class="btn btn-signup">Sign
+                                up!</button>
+                        </form>
+                        <p class="text-muted"><small> small text.</small></p>
+                        {% endif %}
+                    </div>
 
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-
-    <div class="row">
-        <div class="col-md-12">
-            <div class="text-center">
-                <h1 class="text-center brand">hoori.</h1>
-                <h2 class="diplay-6 text-light">Find detailed recipes with macros</h2>
-                <hr>
-                {% if user.is_authenticated %}
-                <p class="lead text-light"> Welcome, {{ user | title }}!</p>
-                <form action="{% url 'home' %}" method="get">
-                    <button class="btn btn-signup">View Recipes</button>
-                </form>
-                {% else %}
-                <p class="lead text-light">Sign in please</p>
-                <form action="{% url 'account_signup' %}" method="get">
-                    <button class="btn btn-signup">Sign
-                        up!</button>
-                </form>
-                <p class="text-muted"><small> small text.</small></p>
-                {% endif %}
             </div>
         </div>
     </div>
