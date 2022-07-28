@@ -20,7 +20,6 @@
 
 
 
-
 ## Introduction
 
 This project is named "Hoori" which refers to the japanese god Hoori who was the god of grain and rice. The reason for this is that the site will collect recipes and to give give a helping hand in the style direction of the user interface, that will aim to be sleek and minimalistic. 
