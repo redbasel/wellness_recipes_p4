@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
+
+html {
+    overflow-x: hidden;
+  }
+
+
 body {
     background-color: #F9FAFC;
+    overflow-x: hidden;
 }
 
 .brand {
@@ -219,4 +226,5 @@ body {
     position: absolute;
     bottom: 15px;
     color: #fff;
+
   }
