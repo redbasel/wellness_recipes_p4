@@ -4,7 +4,7 @@ from django.views import generic, View
 from django.views.generic import CreateView, UpdateView, DeleteView
 from django.http import HttpResponseRedirect
 from .models import Post
-from .forms import CommentForm
+from .forms import CommentForm, PostForm
 
 class PostList(generic.ListView):
     model = Post
@@ -90,7 +90,8 @@ class PostLike(View):
 
 class PostCreateView(CreateView):
     model = Post
-    fields = ['title', 'content', 'ingredients', 'instructions', 'cooking_time', 'protein' ,'carbs', 'fat' ,'featured_image' ]
+    form_class = PostForm
+    #fields = ['title', 'content', 'ingredients', 'instructions', 'cooking_time', 'protein' ,'carbs', 'fat' ,'featured_image' ]
     template_name = 'post_form.html'
     
     def form_valid(self, form):
@@ -99,7 +100,8 @@ class PostCreateView(CreateView):
 #Trial update view        
 class PostUpdateView(UpdateView):
     model = Post
-    fields = ['title', 'content', 'ingredients', 'instructions', 'cooking_time', 'featured_image' ]
+    form_class = PostForm
+    #fields = ['title', 'content', 'ingredients', 'instructions', 'cooking_time', 'featured_image' ]
     template_name = 'post_update.html'
     
     def form_valid(self, form):
