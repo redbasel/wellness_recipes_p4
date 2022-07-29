@@ -241,3 +241,7 @@ h3 {
 p {
     font-family: "IBM Plex Mono", sans-serif;
 }
+
+.heroshadow {
+    text-shadow: 2px 2px black;
+}
