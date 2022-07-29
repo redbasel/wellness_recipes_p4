@@ -48,6 +48,10 @@ body {
     font-weight: 550;
 }
 
+.monofont {
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
 .card-text {
     font-family: "IBM Plex Mono", sans-serif;
 }
