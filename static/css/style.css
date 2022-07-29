@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
-
 html {
-    overflow: hidden;
-  }
-
+    overflow-y: visible;
+}
 
 body {
     background-color: #F9FAFC;
-    overflow: hidden;
+
 }
 
 .brand {
