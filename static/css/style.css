@@ -214,6 +214,7 @@ body {
     display: flex;
     align-items: center;
   }
+  /*
   .hero:before {
     content:"";
     position: absolute;
@@ -223,9 +224,9 @@ body {
     left: 0;
     background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
   }
+  */
   .hero-content {
     color: #fff;
 
   }
 
-  
