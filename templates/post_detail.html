@@ -39,10 +39,12 @@
                         <!-- The post content goes inside the card-text. -->
                         <!-- Use the | safe filter inside the template tags -->
                         <!--Probably here that i will add the recipe specific content-->
-                        <p>Macros:</p>
-                        <p>Carbs: {{ post.carbs | safe }}g</p>
+                        <h3>Macros:</h3>
                         <p>Protein: {{ post.protein | safe }}g</p>
+                        <p>Carbs: {{ post.carbs | safe }}g</p>
                         <p>Fat: {{ post.fat | safe }}g</p>
+                        <h3>Quick info:</h3>
+                        <p>Cooking time: {{ post.cooking_time | safe }} minutes </p>
                     </div>
                 
     
