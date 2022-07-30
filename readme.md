@@ -128,11 +128,21 @@ The hero has variable elements based on whether the visitor is a logged in user 
 
 ##### Hero as a logged in user
 
+When logged in the hero text should firstly, welcome the user and secondly the button should act as “Create Recipe” button. 
 
+As a visitor the hero text should inform the users about the possible features of the website and enquire them to sign up.
+
+
+#### Homepage: recipe list
+
+The visitor/user should be able to see rows of recipes, and the recipes are displayed using cards. The user should see a banner above the recipe image with a quick and concsice summmary of the macros, "p" for protein, "c" for carbs and "f" for fats. Below the image and flash is where the title of the recipe should be. Below that should the author of the recipe be found along with the amount of likes that should be syymbolized by a wheat of grain alongside a likes counter. When you hover over the title it should turn gold. 
+
+#### Homepage: Footer
+
+The footer should contain socials and a quote regarding the origin of hoori. 
 
 
 ### Bugs
-
 
 
 
