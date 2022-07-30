@@ -48,7 +48,7 @@
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
                                 <div class="image-flash">
-                                    <p class="author">by: {{ post.author }}</p>
+                                    <p class="author">P:{{ post.protein | safe }}g C:{{ post.carbs | safe }}g F:{{ post.fat | safe }}g </p>
                                 </div>
                             </div>
                             <a href="{% url 'post_detail' post.slug  %}" class="post-link">
