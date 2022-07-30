@@ -56,6 +56,16 @@ body {
     font-family: "IBM Plex Mono", sans-serif;
 }
 
+
+/* Styling for recipe cards */
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    min-height: 200px;
+}
+
 .image-container {
     position: relative;
 }
