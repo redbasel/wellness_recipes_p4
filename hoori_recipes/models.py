@@ -31,6 +31,7 @@ class Post(models.Model):
     protein = models.IntegerField(null=True)
     carbs = models.IntegerField(null=True)
     fat = models.IntegerField(null=True)
+    servings = models.IntegerField(null=True)
 
 
  # trial post creation redirect, post_detail refers to post_detail.html. we use slug instead of pk because slug is already defined and will crash with slug oterwise.    
