@@ -4,7 +4,7 @@ from django import forms
 class PostForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = ('title', 'content', 'ingredients', 'instructions', 'cooking_time','servings', 'protein','carbs', 'fat', 'featured_image' )
+        fields = ('title', 'ingredients', 'instructions', 'cooking_time','servings', 'protein','carbs', 'fat', 'featured_image' )
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control'}),
             'content': forms.TextInput(attrs={'class': 'form-control'}),

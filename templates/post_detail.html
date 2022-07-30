@@ -45,6 +45,7 @@
                         <p>Fat: {{ post.fat | safe }}g</p>
                         <h3>Quick info:</h3>
                         <p>Cooking time: {{ post.cooking_time | safe }} minutes </p>
+                        <p>Serves: {{ post.servings | safe }}</p>
                     </div>
                 
     
@@ -62,22 +63,15 @@
                 <!-- The post content goes inside the card-text. -->
                 <!-- Use the | safe filter inside the template tags -->
                 <!--Probably here that i will add the recipe specific content-->
-                <p class="card-text">
-                    <h3 class="monofont">Description</h3>
-                    {{ post.content | safe }}
+                <p class="card-text ">
+                    <h3>Ingredients</h3>
+                    {{ post.ingredients | safe }}
                 </p>
                 <p class="card-text">
                     <h3>Instructions</h3>
                     <p class="monofont">{{ post.instructions | safe }}</p>
                 </p>
-                <p class="card-text ">
-                    <h3>Ingredients</h3>
-                    {{ post.ingredients | safe }}
-                </p>
-                <p class="card-text ">
-                    <h3>Cooking time</h3>
-                    {{ post.cooking_time | safe }}
-                </p>
+
                 <div class="row">
 
                     <div class="col-1">
