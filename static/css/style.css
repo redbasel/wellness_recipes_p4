@@ -57,11 +57,9 @@ body {
 }
 
 
-/* Styling for recipe cards */
+/* Styling for recipe cards, made css stop working */
 
 .card-img-top {
-    width: 100%;
-    height: 15vw;
     object-fit: cover;
     min-height: 200px;
 }
