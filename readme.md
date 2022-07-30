@@ -89,7 +89,48 @@ lighthouse maybe
 
 ### User story testing
 
-Write my user stories and how they are adresssed
+Write my user stories and how they are adresssed.
+
+USER STORY: Users add image to recipe form 
+
+image of button
+
+USER STORY: Enter detailed 'instructions' recipe form     
+
+image of all fields
+
+USER STORY: Only owner can delete post     
+
+Gif error message
+
+USER STORY: Alerts      
+
+USER STORY: comment on recipes      
+
+USER STORY: view post list      
+
+USER STORY: website pagination      
+
+USER STORY: Create posts      
+
+USER STORY: VIEW OWN RECIPES   
+
+USER STORY: Display recipes on page      
+
+USER STORY: DELETE RECIPE      
+
+USER STORY: EDIT RECIPE      
+
+USER STORY: View recipe      
+
+USER STORY: Like recipe      
+
+USER STORY: Add recipe     
+
+USER STORY: Log in     
+
+USER STORY: Register account     
+
 
 
 
