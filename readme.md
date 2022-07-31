@@ -93,43 +93,106 @@ Write my user stories and how they are adresssed.
 
 USER STORY: Users add image to recipe form 
 
-image of button
+![User story testing](/static/media/imgupload.png 'Upload image - testing')
 
 USER STORY: Enter detailed 'instructions' recipe form     
 
-image of all fields
+![User story testing](/static/media/detailed_input_1.png 'detailed instructions - testing')
 
 USER STORY: Only owner can delete post     
 
-Gif error message
+Only the owner will be shown the delete and edit buttons as shown below. If the user tries to acess the edit or delete page by pasting the correct url directly into the browser there is a second check that first checks if the user is authenticated and secondly if they are the author. If they are not the the author they will directed to a error page and if they are not logged in they will be asked to please log in. 
+
+![User story testing](/static/media/user_delete.png 'author can delete - testing') 
+
+![User story testing](/static/media/defensive_delete.png 'defensive programming - testing')
+
+![User story testing](/static/media/unauth_delete.png 'visitor can not delete - testing')
+
+![User story testing](/static/media/notauthorized.png 'direct entry denied not auth - testing')
+
+![User story testing](/static/media/please_log_in.png 'direct entry denied login - testing')
 
 USER STORY: Alerts      
 
-USER STORY: comment on recipes      
+When signed in the site will send out an alert to confirm thay you have been logged in. The site will also send out a alert when you are succesfully logged out. 
+
+![User story testing](/static/media/signin_alert.png 'alert signin - testing')
+
+![User story testing](/static/media/signout_alert.png 'alert signout - testing')
+
+
+USER STORY: comment on recipes     
+
+Logged in users should be able to comment on all posts and when the comment is made it should be sent to the admin for approval. When approved it should show under the post and and comment counter should increase by one.
+
+![User story testing](/static/media/commentbox.png 'commentbox - testing')
+
+![User story testing](/static/media/admin_approve.png 'admin approve - testing')
+
+![User story testing](/static/media/commentapproved.png.png 'comment approved - testing')
+
+
 
 USER STORY: view post list      
+
+
 
 USER STORY: website pagination      
 
 USER STORY: Create posts      
 
+A logged in user should be able to upload recipes. When logged in the user will be promted to upload a recipe in the header.
+
+![User story testing](/static/media/header:change.png 'CRUD upload navbara - testing')
+
+![User story testing](/static/media/upload_recipe.png 'CRUD upload - testing')
+
 USER STORY: VIEW OWN RECIPES   
+
+To be implemented at a later date. 
 
 USER STORY: Display recipes on page      
 
-USER STORY: DELETE RECIPE      
+USER STORY: EDIT RECIPE 
 
-USER STORY: EDIT RECIPE      
+Only the owner will be shown the delete and edit buttons as shown below. If the user tries to acess the edit or delete page by pasting the correct url directly into the browser there is a second check that first checks if the user is authenticated and secondly if they are the author. If they are not the the author they will directed to a error page and if they are not logged in they will be asked to please log in. 
 
-USER STORY: View recipe      
+![User story testing](/static/media/detailed_input.png 'update recipe - testing')
+
+![User story testing](/static/media/unauth_delete.png 'visitor can not delete - testing')
+
+![User story testing](/static/media/notauthorized.png 'direct entry denied not auth - testing')
+
+![User story testing](/static/media/please_log_in.png 'direct entry denied login - testing')
+
+USER STORY: View recipe     
+
+Users can view recipe by hovering over the recipe, and when they do that the text will change to gold to indicate it can be clicked to the user. 
+
+![User story testing](/static/media/view_recipe.png 'users can view recipes - testing')
+
 
 USER STORY: Like recipe      
 
-USER STORY: Add recipe     
+Users can like a recipe and when doing so the like counter should increae by one on bothe the recipe page but also in the recipe list. 
+
+![User story testing](/static/media/recipepost_notliked.png 'recipe post not liked - testing')
+
+![User story testing](/static/media/recipepost_liked.png.png 'recipe post liked - testing')
+
+![User story testing](/static/media/recipe_liked.png.png 'recipe liked - testing')
+  
 
 USER STORY: Log in     
 
-USER STORY: Register account     
+Visitors should be able to login to their accounts. 
+
+
+
+USER STORY: Register account  
+
+A visitor should be able to register a account. 
 
 
 
