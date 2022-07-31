@@ -49,15 +49,12 @@ https://hoori-recipes.herokuapp.com/
 
 ### User Stories
 
-Users should be able to register
+
 
 https://github.com/redbasel/wellness_recipes_p4/issues?q=is%3Aissue+is%3Aopen+label%3A%22User+story%22
 
 ### Wireframes
 
-## Issues
-
-(links to label issues.)
 
 ### Functionality: Design
 
@@ -160,12 +157,6 @@ On desktop the recipe page scored a 100 overall. Improvements could be made to a
 ![validator](/static/media/lightrecipedesk.png 'lightdeskrecipe')
 
 ![validator](/static/media/lightrecipemobile.png 'lightmobilerecipe')
-
-
-
-
-
-
 
 
 
