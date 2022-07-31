@@ -23,8 +23,10 @@
     3. [Feature Testing](#Feature-tests)
     4. [Bugs](#Bugs)
 
-7. [Deployment](#Deployment)
+7. [Technologies](#Technologies)
 8. [Deployment](#Deployment)
+8. [Credit](#Credit)
+
 
 
 
@@ -34,6 +36,12 @@
 ## Introduction
 
 This project is named "Hoori" which refers to the japanese god Hoori who was the god of grain and rice. The reason for this is that the site will collect recipes with the intent to break them down to their core which is the reason that the macros are included. Further, it will give a helping hand in the style direction of the user interface, that will aim to be sleek and minimalistic. 
+
+Link to the live project:
+
+https://hoori-recipes.herokuapp.com/
+
+![Introduction](/static/media/homeimg.png 'home ')
 
 ## Start
 
@@ -114,10 +122,7 @@ https://github.com/redbasel/wellness_recipes_p4/issues?q=is%3Aissue+is%3Aopen+la
 ## Testing
 
 Below is a summary of the tesing done.
-    1. [Validators](#Validators)
-    2. [User Stories](#User-story-testing)
-    3. [Feature Testing](#Feature-tests)
-    4. [Bugs](#Bugs)
+
 
 ### Validators
 
@@ -126,6 +131,8 @@ Below is a summary of the tesing done.
 Gave some warnings but  nothing detrimental as it reacted a lot on the django references, 
 
 #### css - jigsaw
+
+![validator](/static/media/cssvalidator.png 'css')
 
 
 #### python - PEP8
@@ -140,9 +147,19 @@ Homepage:
 
 Desktop scored a 95 and on mobile it scored a 74 overall. To increase this score the two improvements aside from ascesiblilty would be to have smaller images that would load on the mobile decies as well as implementing lazy load on the recipes. Improvments could be made to create a alt field that the user can fill in or have the title of the recipe fill in the alt of the images to increase accesiblit. This would apply to both desktop and mobile.
 
+
+![validator](/static/media/lighthomedesk.png 'lightdeskp')
+
+![validator](/static/media/lighthomemobile.png 'lighttmobile')
+
+
 Recipe page:
 
 On desktop the recipe page scored a 100 overall. Improvements could be made to assesibility. On mobile it scored a 97. 
+
+![validator](/static/media/lightrecipedesk.png 'lightdeskrecipe')
+
+![validator](/static/media/lightrecipemobile.png 'lightmobilerecipe')
 
 
 
@@ -335,5 +352,21 @@ The webiste is functional today and working, however as with all projects there 
 3. Adding a social share button could increase the amount of recipes being shared amongst friends and this increasing the userbase.
 
 
+## Deployment
+
+First, add all dependencies to requirements.txt using: pip3 freeze > requirements.txt. Secondly, push and commit to git. That’s for git, and for Heroku we create a new app. Add the name and venture on to the settings before deployment. Add our cred file with our private api key. In buildpacks we add python and node.js, in that order. That’s it for the settings, back to deployment. We connect our github account, search for the repo. Then manually deploy the branch so we are in full control.
 
 
+## Tecnologies
+
+### Languages
+
+Language used involved:
+1. Python
+2. HTML
+3. Javascript
+4. CSS
+
+## Credits
+
+Credits go to CodeInstitute and the "I think therefore I blog" whcih served as an inspiration for the project. 
