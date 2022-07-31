@@ -188,11 +188,19 @@ USER STORY: Log in
 
 Visitors should be able to login to their accounts. 
 
+![User story testing](/static/media/navbarlogin.png.png 'navbar login - testing')
+
+![User story testing](/static/media/signin.png.png 'signin page - testing')
+
 
 
 USER STORY: Register account  
 
-A visitor should be able to register a account. 
+A visitor should be able to register a account and will be encouraged to do som in the the hero and will have acess to the register link in the navbar.
+
+![User story testing](/static/media/navbar_register.png.png 'navbar register - testing')
+
+![User story testing](/static/media/hero_signup.png.png 'navbar signup - testing')
 
 
 
