@@ -1,10 +1,21 @@
 from .models import Comment, Post
 from django import forms
 
+
 class PostForm(forms.ModelForm):
     class Meta:
         model = Post
-        fields = ('title', 'ingredients', 'instructions', 'cooking_time','servings', 'protein','carbs', 'fat', 'featured_image' )
+        fields = (
+            'title',
+            'ingredients',
+            'instructions', 
+            'cooking_time',
+            'servings',
+            'protein',
+            'carbs',
+            'fat',
+            'featured_image'
+            )
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control'}),
             'content': forms.TextInput(attrs={'class': 'form-control'}),
@@ -16,10 +27,6 @@ class PostForm(forms.ModelForm):
             'ingredients': forms.Textarea(attrs={'class': 'form-control'}),
             'instructions': forms.Textarea(attrs={'class': 'form-control'}),
         }
-
-
-
-
 
 
 class CommentForm(forms.ModelForm):

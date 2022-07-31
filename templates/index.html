@@ -13,8 +13,8 @@
                         <hr>
                         {% if user.is_authenticated %}
                         <p class="lead text-light heroshadow"> Welcome, {{ user | title }}!</p>
-                        <form action="{% url 'home' %}" method="get">
-                            <button class="btn btn-signup">View Recipes</button>
+                        <form action="{% url 'post_create' %}" method="get">
+                            <button class="btn btn-signup">Add Recipes</button>
                         </form>
                         {% else %}
                         <p class="lead text-light heroshadow">Once signed in you can create,edit and update recipes.</p>
@@ -33,7 +33,7 @@
 </div>
 <div class="container-fluid">
 <div class="row">
-    <h3 class="text-center" id="recipelisturl">List of Recipes</h3>
+    <h3 class="text-center mt-3" id="recipelisturl">Collection of Recipes</h3>
         <!-- Blog Entries Column, change placeholder image -->
         <div class="col-12 mt-3 left">
             <div class="row">

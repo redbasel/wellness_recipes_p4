@@ -58,7 +58,7 @@ body {
 }
 
 
-/* Styling for recipe cards, made css stop working */
+
 
 .card-img-top {
     object-fit: cover;
@@ -215,10 +215,7 @@ body {
     background-color: #000000;
 }
 
-/* hero image
-    position: absolute;
-    bottom: 15px;
-*/
+
 
 .hero {
     min-height: 70vh;
@@ -228,17 +225,7 @@ body {
     display: flex;
     align-items: center;
   }
-  /*
-  .hero:before {
-    content:"";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
-  }
-  */
+
   .hero-content {
     color: #fff;
 
@@ -256,7 +243,6 @@ p {
     text-shadow: 2px 2px black;
 }
 
-/* overflow attempt */
 
 .row {
     --bs-gutter-x: 0 !important;

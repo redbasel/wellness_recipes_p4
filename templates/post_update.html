@@ -11,7 +11,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8 mt-3 offset-md-2">
-            <h3>{% trans "Update your post" %}</h3>
+            <h3>{% trans "Update your recipe" %}</h3>
 
 
         </div>
@@ -22,7 +22,7 @@
                 <form class="signup" id="add_recipe" method="post" action="." enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form.as_p }}
-                    <button class="btn btn-signup right" type="submit">{% trans "Update Post" %} &raquo;</button>
+                    <button class="btn btn-signup right" type="submit">{% trans "Update recipe" %} &raquo;</button>
                 </form>
             </div>
         </div>

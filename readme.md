@@ -23,6 +23,9 @@
     3. [Feature Testing](#Feature-tests)
     4. [Bugs](#Bugs)
 
+7. [Deployment](#Deployment)
+8. [Deployment](#Deployment)
+
 
 
 
@@ -118,11 +121,35 @@ Below is a summary of the tesing done.
 
 ### Validators
 
-html - w3c
-css - jigsaw
-javascript - jshint
-python - PEP8
-lighthouse maybe
+#### html - w3c
+
+Gave some warnings but  nothing detrimental as it reacted a lot on the django references, 
+
+#### css - jigsaw
+
+
+#### python - PEP8
+
+
+Utilized the built in PEP8 validator in Gitpod to go through the python files and made the changes i could that did not effect the function of the webpage, it was mostly cleaning up the code. There is a warning for aline of code that is too long in models.py but it could not be amended without the page becoming unstable. 
+
+
+#### lighthouse 
+
+Homepage:
+
+Desktop scored a 95 and on mobile it scored a 74 overall. To increase this score the two improvements aside from ascesiblilty would be to have smaller images that would load on the mobile decies as well as implementing lazy load on the recipes. Improvments could be made to create a alt field that the user can fill in or have the title of the recipe fill in the alt of the images to increase accesiblit. This would apply to both desktop and mobile.
+
+Recipe page:
+
+On desktop the recipe page scored a 100 overall. Improvements could be made to assesibility. On mobile it scored a 97. 
+
+
+
+
+
+
+
 
 
 
