@@ -67,7 +67,7 @@ Wireframe of the homepage as a logged in user
 
 ![Design](/static/media/webloggedinwf.png 'wireframe logged in user homepage')
 
-Wireframe of the recipe section of the website.
+Wireframes of the recipe section of the website.
 
 
 
@@ -83,15 +83,25 @@ Below is the database scheme for the application.
 
 ### Fonts
 
+The two most featured fonts on the website are Helvetica and IBM Plex Mono. The helvetiva is used for the logo and the items in the header along with the hero text as well as the title of the recipes. The monotype font "IBM Plex Mono" was used to give the site a more minimalistic design as well as giving the feeling that the recipes are more intiamte as they have bee nwritte non a tyypewriter almost by someones grandma couple decades back. The design takes cues from the "nothing. brand".  
+
 ### Colortheme
+
+The name hoori is of japanese origin and relates to wheat, thus there are four main colors on the page. Namely, white, red, gold and black. The white and red comes from the japanese flag, adn the page is using the offical red of the japanese flag "Crimson Glory". The gold is a nod to the wheat and the "golden" harvest. The black ties it all together. The image used for the hero have elements of theses colors as well. 
+
+
+![Design](/static/media/colors2.png 'color scheme')
 
 ### Logotype
 
 The logo is based on the "Helvetica" font in bold, all lowercaps letters with a dot in the end in an attempt to keep the logo sleek and easy. 
 
+![Design](/static/media/hoorilogo.png 'hoori logotype')
+
 ### Icons
 
-Upgraded FontAwesome to the latest version 6.1.1 from 5.14 in order to be able to utilize the wheat icon. 
+Upgraded FontAwesome to the latest version 6.1.2 from 5.15.4 in order to be able to utilize the wheat icon. 
+
 
 
 ## Issues
@@ -284,6 +294,19 @@ The footer should contain socials and a quote regarding the origin of hoori.
 
 
 ### Bugs
+
+https://github.com/redbasel/wellness_recipes_p4/issues?q=is%3Aissue+is%3Aopen+label%3Aissue
+
+
+
+### Improvements
+
+The webiste is functional today and working, however as with all projects there is room for improvement which the following list summarizes:
+
+1. Add a rich text editor on the user end, not just for admin. One of the problems of the rich text editors on the user end is the danger of injection attacks which makes it a bigger taask than just simply allowing it on teh user end. Sutiable editors would be SummerNote, TinyMCE and CKeditor. 
+2. Adding tags so that users could filter out recipes based on their dietary preferences.
+3. Adding a social share button could increase the amount of recipes being shared amongst friends and this increasing the userbase.
+
 
 
 
