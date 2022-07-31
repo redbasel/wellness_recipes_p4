@@ -50,7 +50,36 @@ https://github.com/redbasel/wellness_recipes_p4/issues?q=is%3Aissue+is%3Aopen+la
 
 ### Functionality: Design
 
+## Design
+
 ### Wireframes
+
+The original wireframe for the navbar desktop view.
+
+
+![Design](/static/media/WebNavBarwf.png 'wireframe navbar')
+
+Wireframe of the hoomepage as a visitor.
+
+![Design](/static/media/Webvisitorwf.png 'wireframe visitor')
+
+Wireframe of the homepage as a logged in user
+
+![Design](/static/media/webloggedinwf.png 'wireframe logged in user homepage')
+
+Wireframe of the recipe section of the website.
+
+
+
+![Design](/static/media/Recipe_detail.png 'Recipe detail1 wireframe')
+
+![Design](/static/media/Recipe_detail_new%20%E2%80%93%201.png 'REcipe detail2 wireframe ')
+
+### Database scheme
+
+Below is the database scheme for the application. 
+
+![Design](/static/media/database_scheme.png 'database scheme')
 
 ### Fonts
 
