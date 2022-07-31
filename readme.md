@@ -130,7 +130,7 @@ Logged in users should be able to comment on all posts and when the comment is m
 
 ![User story testing](/static/media/admin_approve.png 'admin approve - testing')
 
-![User story testing](/static/media/commentapproved.png.png 'comment approved - testing')
+![User story testing](/static/media/commentapproved.png 'comment approved - testing')
 
 
 
@@ -179,18 +179,18 @@ Users can like a recipe and when doing so the like counter should increae by one
 
 ![User story testing](/static/media/recipepost_notliked.png 'recipe post not liked - testing')
 
-![User story testing](/static/media/recipepost_liked.png.png 'recipe post liked - testing')
+![User story testing](/static/media/recipepost_liked.png 'recipe post liked - testing')
 
-![User story testing](/static/media/recipe_liked.png.png 'recipe liked - testing')
+![User story testing](/static/media/recipe_liked.png 'recipe liked - testing')
   
 
 USER STORY: Log in     
 
 Visitors should be able to login to their accounts. 
 
-![User story testing](/static/media/navbarlogin.png.png 'navbar login - testing')
+![User story testing](/static/media/navbarlogin.png 'navbar login - testing')
 
-![User story testing](/static/media/signin.png.png 'signin page - testing')
+![User story testing](/static/media/signin.png 'signin page - testing')
 
 
 
@@ -198,9 +198,9 @@ USER STORY: Register account
 
 A visitor should be able to register a account and will be encouraged to do som in the the hero and will have acess to the register link in the navbar.
 
-![User story testing](/static/media/navbar_register.png.png 'navbar register - testing')
+![User story testing](/static/media/navbar_register.png 'navbar register - testing')
 
-![User story testing](/static/media/hero_signup.png.png 'navbar signup - testing')
+![User story testing](/static/media/hero_signup.png 'navbar signup - testing')
 
 
 
